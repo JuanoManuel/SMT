@@ -8,11 +8,9 @@
 
 //funcion principal se asignan funciones a eventos
 $(document).ready(function(){
+	console.log("Entro al script de vacantes");
 	$("#savePuestos").prop("disabled",true);
 	$(document).on("click","#agregarVacante, #quitarVacante",habilitarGuardarCambios);
-	llenarVacantes();
-	llenarPuestos();
-	llenarPuestosSolicitud();
 	$(document).on("click","#agregarVacante",agregarVacante);
 	$(document).on("click","#quitarVacante",quitarVacante);
 	$(document).on("click","#eliminarPuesto",eliminarPuesto);
