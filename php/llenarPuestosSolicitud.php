@@ -5,7 +5,7 @@
 	$acentos = $link->query("SET NAMES 'utf8'");
 	mysqli_close($link);
 	include 'conmenu.php';
-	$consulta =  "SELECT DISTINCT puesto FROM puestos WHERE Solicitado = 1 ORDER BY puesto ASC";
+	$consulta =  "Select distinct puesto from puestos where Solicitado = 1 order by puesto ASC";
 	$result = mysqli_query($link,$consulta) or die('Consulta fallida: ' .mysql_error());
 	$array[] = "<option value=''>Selecciona una opción</option>";
 	while ($line = mysqli_fetch_array($result, MYSQLI_NUM)) {
