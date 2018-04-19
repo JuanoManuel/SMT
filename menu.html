@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Control de Empleados</title>
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"> <!--letra del encabezado-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!--Iconos de google-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos_menu.css">
+</head>
+<body>
+	<header  class="container-fluid encabezado">
+		<div class="row justify-content-center">
+			<div class="d-flex align-items-center col-auto">
+				<img src="img/marktac-sello.gif" class="float-left" alt="logo" width="139px" height="139px">
+				<span>
+					<h1 class="titulo-encabezado">MarkTác México</h1>
+					<p class="eslogan">El camino de la estrategia a la acción</p>
+				</span>
+			</div>
+			<div class="col-auto d-flex align-items-center">
+				<div class="row">
+					<div class="col mb-3">
+						<div class="text-center">
+							<a href="https://www.facebook.com/marktacmexico/?fref=ts">
+								<img src="img/facebook.png" class="mx-2" alt="facebook" height="21px" width="21px">
+							</a>
+							<a href="https://www.youtube.com/channel/UCpUr4UIKt1C_ben1_2VY10g">
+								<img src="img/youtube.png" class="mx-2" alt="youtube" height="21px" width="21px">
+							</a>
+						</div>
+					</div>
+					<div class="w-100"></div>
+					<div class="col text-center">
+						<p class="contacto mx-auto">marktac@marktac.com | Tel: 55-70-30-39-88</p>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</header>
+
+
+
+	<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-3" id="cargar-menu">
+
+			</div>
+			<article class="col-md-9" id="cargar-contenido">
+
+			</article>
+		</div>
+		<!--Modal agregar puesto a la lista de puestos del apartado de control de vacantes-->
+		<div class="modal fade" id="agregarNuevoPuesto" tabindex="-1" role="dialog" aria-labeledby="labelNuevoPuesto" aria-hidden="true">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="labelNuevoPuesto">Registre el nuevo puesto</h5>
+					</div>
+					<div class="modal-body">
+				        <div class="form-group">
+				        	<label for="inputNuevoPuesto">Nuevo puesto:</label>
+				        	<input type="text" id="inputNuevoPuesto" name="inputNuevoPuesto" class="form-control validarTexto">
+				        </div>
+				    </div>
+				    <div class="modal-footer">
+				    	<button type="button" id="cerrarModalVacantes" class="btn btn-secondary">Cerrar</button>
+				    	<button id="addPuesto" type="button" class="btn colorBMT">Agregar puesto</button>
+				    </div>
+				</div>
+			</div>
+		</div>
+</div>
+<footer  id="footer">
+		<div class="container">
+		<div class="row justify-content-between">
+			<div class="col-4">
+				© 2017 by MarkTác México.
+			</div>
+			<div class="col-4">
+				<a class="colorsito" href="https://docs.wixstatic.com/ugd/7c6f11_ea54f3795ecc40dcab0d0db271544e38.pdf">
+				Aviso de Privacidad
+				</a>
+			</div>
+		</div>
+		<div class="row justify-content-start">
+			<div class="col-auto">
+			<div>Icons made by <a href="https://www.flaticon.com/authors/maxim-basinski" title="Maxim Basinski">Maxim Basinski</a>, <a href="https://www.flaticon.com/authors/eleonor-wang" title="Eleonor Wang">Eleonor Wang</a>, <a href="https://www.flaticon.com/authors/yannick" title="Yannick">Yannick</a>, <a href="https://www.flaticon.com/authors/sebastien-gabriel" title="Sebastien Gabriel">Sebastien Gabriel</a>, <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+			</div>
+		</div>
+	</div>
+	</footer>
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/controlTablas.js"></script>
+	<script src="js/consulta_datos.js"></script>
+	<script src="js/script-menu.js"></script>
+	<script src="js/acciones_lista.js"></script>
+	<script src="js/validarInput.js"></script>
+	<script src="js/script-vacantes.js"></script><!--arreglar-->
+	<script src="js/script-control-menu.js" charset="utf-8"></script>
+	<script src="js/cargar-pagina.js" charset="utf-8"></script>
+	<!-- <script src="js/validarLogin.js"></script> -->
+</body>
+</html>

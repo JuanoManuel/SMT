@@ -1,0 +1,65 @@
+.encabezado{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.titulo-encabezado{
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	color: #1D1F71;
+	padding: 0;
+	margin: 0;
+}
+.eslogan{
+	color: #8B0000;
+	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+.contacto{
+	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+	color: #5D5F95;
+	font-size: 18px;
+}
+
+.verticalLine {
+	border-right: 2px solid #5D5F95;
+	color: #FFFFFF
+}
+
+.colorMT:hover{
+	background-color: #B40404;
+	color: #FFF;
+}
+
+#contenedor-formulario{
+	background-color: #D8D8D8;
+}
+
+.colorMTL{
+	color: #000;
+}
+
+.panel{
+	position: absolute;
+	top:2%;
+	left: 30%;
+	width: 40%;
+	padding: 10px;
+	background:#eee;
+}
+body{
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  background-color: #FFF;
+  background-image: url('');
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}

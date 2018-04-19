@@ -1,0 +1,73 @@
+OBSERVACIONES
+
+1 Agregar combobox nadie depende de mi y agregar a llenarbd (Cedillo)
+2 Deshabilitar campo de cartilla militar si es mujer (Juanin) TERMINADO
+3 Hacer combobox de si y no en las preguntas (Cedillo)
+4 Limitar el campo de licencia de manejo (Juanin) TERMINADO
+5 Invertir checkbox de vive en datos familiares (Juanin) TERMINADO
+6 Mover de lugar el boton de la tabla de hijos (Pendiente)
+7 Boton quitar escolaridad (Juanin) TERMINADO
+8 Cambiar texto actualmente esta estudiando (Cedillo) TERMINADO
+9 Especificar mes y año en empleo (Cedillo) TERMINADOI
+10 Cambiar longitud dato motivo separacion (280). (Cedillo) TERMINADO
+11 Especificar  comentarios trabajo  (Cedillo) TERMINADO
+12 Cambiar boton de agregar por agregar otra escuela/empleo (Juanin) TERMINADO
+13 Agregar extra chica y extra grande (Cedillo) TERMINADO
+14 Cambiar tipo dato, o espicificar sueldo cambiar a varchar (Cedillo) jfdlksdf
+15 deshabilitar cartilla militar si es mujer (Juanin) TERMINADO
+16 Agregar otra escula boton (agregar otro empleo igual) (Juanin) TERMINADO
+17 Boton habilitar aceptar escolairda escuela (Pendiente)
+18 Validacion campos fallido (Juanin) TERMINADO
+19 cambiar a mouse (Cedillo) COMPLETADO
+20 checar pdf checar cartilla (Juanin)
+21 Checar respuesta embarazada (Juanin)
+22 Mostrar en el pdf de manera decendente de nivel mas pro a menor, encabezado con el nivel (Cedillo/Juanin) TERMINADO
+23 Cambiar no uso (Cedillo/Juanin)TERMINADO
+24 Ortografia en general (Diego)
+25 rellenar huecos y cambiar tamaño letra tablas (Cedillo/Juanin) TERMINADO
+26 Apegado a procesos 
+27 agregar tablas en sin empleos (Cedillo/Juanin) TERMINADO
+Económicos
+Quién
+Cómo
+28 tabla pdf contactos emergencia (Cedillo/Juanin) TERMINADO
+Teléfonos
+Número
+30 Agregar foto y firma en datos personales (Alberto)  
+33 agregar dropdown o algo asi a titulo
+
+**************************************************************
+
+1 Hacer necesario que el campo de software en la tabla si se agrega uno
+2 Limitar campo telefono empleo TERMINADO
+3 No se bloequea el input de pedir informes si le dan a si xd 
+4 Expresiones regulares en telefonos referencia
+5 Hacer required los campos que tengan si en datos económicos 
+6 CoMBO BOX ORIENTACIÓN SEXUAL TERMINADO
+7 modal ayuda horario
+
+***************************************
+1 Restringir que los campos puedan ser alfanumericos donde no pueden ,
+2 Orientacion Sexual quitarlo
+3 bloquear alfanumerico y agregar una nota 
+4 validar fecha nacimiento 
+5 Estatura  
+6 peso
+7 Telefono Otros 
+8 Personas que dependen de usted poder agregar otros
+9 Cartilla
+10 AFORE Y OTRA
+11 ESTADO SALUD PURAS LETRAS
+12 Datos familiares
+13 validar hijos con la edad del empleado,
+14 Calle escuela
+15 validar año iniicio con año de graduacion , años y titulo
+16 Empleo checar empezo a prestar servicio 8 caracteres, Telefono que tenga un maximo y un mimo
+17 Razones empleo
+18 referencias checar todos los campos 
+18 checar datos economicos limite y redundancia modelo
+19 Datos generales
+20 toas las fechas
+21 Datos extra
+22 Cuenta el @
+23 Contactos de emergencia Alfa numerico 

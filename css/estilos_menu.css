@@ -1,0 +1,337 @@
+/* Estilos del menu*/
+
+.menu {
+	    position: fixed;
+	    width: 255px;
+	    top: 15px;
+	    z-index: 2000;
+	}
+
+header {
+	background-color: white;
+}
+
+body {
+	background-color: #C4C4C4;
+}
+
+.encabezado{
+	border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.titulo-encabezado{
+	font-family: 'Anton', sans-serif;
+	font-size: 60px;
+	color: #1D1F71;
+	padding: 0;
+	margin: 0;
+}
+.eslogan{
+	color: #8B0000;
+	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+.contacto{
+	font-family: helvetica-w01-light, helvetica-w02-light, sans-serif;
+	color: #5D5F95;
+	font-size: 18px;
+}
+
+.verticalLine {
+	border-right: 2px solid #5D5F95;
+	color: #FFFFFF
+}
+
+.colorMT{
+	background-color: #1D1F71;
+	color: #FFF;
+}
+
+.colorMT:hover{
+	background-color: #2B19D8;
+}
+
+.container-fluid {
+	margin-bottom: 1em;
+}
+
+
+
+.card a{
+	color: #000;
+}
+
+#accordion a:hover{
+	text-decoration: none;
+}
+
+.nav .nav-link {
+	background-color: #FBF6F6;
+	color: #000;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	background-color: #8B0000;
+	color: #FFF;
+}
+
+.tab-content .tab-pane {
+	background-color: #F7F7F7;
+	border-radius: 5px;
+	padding: 1em;
+}
+
+h2, h3, h6{
+	text-align: center;
+}
+
+hr {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+.empleos-header{
+	color: white;
+	background-color: #525252;
+	margin-left: -16px;
+	margin-right: -16px;
+	margin-bottom: 1em;
+}
+
+.colorBMT:hover{
+	background-color: #B40404;
+	color: #FFF;
+}
+
+/* estilos tabla telefono, la clase tabla solo pone el borde de color a las tablas*/
+
+.telefono, .tabla {
+	margin-top: 0.5em;
+	border-style: solid;
+	border-color: #212529;
+	border-width: 0.2em;
+}
+
+.telefono tr {
+	width: 100%;
+	display: inline-table;
+}
+
+.telefono tbody{
+	background-color: white;
+	height: 120px;
+	width: 100%;
+	overflow-y: auto;
+	display: block;
+}
+
+/*Estilos tabla hijos*/
+
+.tabla-hijos tr {
+width: 100%;
+display: inline-table;
+
+}
+
+
+.tabla-hijos tbody{
+  overflow-y: auto;
+  height: 200px;
+  width: 100%;
+  display: block;
+
+}
+
+.icono{
+	font-size: 3em;
+}
+
+table i:hover, .botonx:hover, .icon:hover{
+	cursor: pointer;
+}
+
+/*Estiloas taba idiomas*/
+.tabla-idioma  tr{
+	width: 100%;
+	display: inline-table;
+}
+
+.tabla-idioma tbody{
+	overflow-y: auto;
+	height: 200px;
+	width: 100%;
+	display: block;
+}
+
+
+/*Estilos de tabla de escolaridad*/
+
+
+.tabla-noSpinner td > input[type=number]::-webkit-outer-spin-button,
+
+.tabla-noSpinner td > input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+.tabla-noSpinner td > input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+/*estilos no spinner*/
+
+.input-group > input[type=number]::-webkit-outer-spin-button,
+
+.input-group > input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+.input-group > input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+.noSpinner input[type=number]::-webkit-outer-spin-button,
+
+.noSpinner input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+}
+
+.noSpinner input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+/*estilos tabla de software*/
+
+.tabla-software  tr {
+	display: inline-table;
+	width: 100%;
+}
+
+.tabla-software tbody{
+  overflow-y: auto;
+  height: 200px;
+  display: block;
+
+}
+
+/*Estilos agregar empleo*/
+
+.setBorder{
+	border-style: solid;
+	border-color: #525252;
+	background-color: #FCFCFC;
+}
+
+.agregarEmpleo, .agregarEscuela{
+	border-style: solid;
+	border-color: #525252;
+	border-width: 1px
+}
+
+.unselection{
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+
+.small {
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+
+#otroPuesto {
+	display: none;
+}
+
+.noTR {
+	height: 100%;
+}
+
+.alturaBuena{								/*Alberto agregó*/
+	max-height: 390px;
+}
+
+.labelCarousel{
+	background-color: rgba(0, 0, 0, 0.6);	/*Alberto agregó*/
+}
+
+.borde-a{
+	border: 1px solid #bcbdbf;				/*Alberto agregó*/
+}
+
+.noEscuela, .noEmpleo {
+	text-align: center;
+	font-weight: bolder;
+}
+
+.noEscuela {
+	text-align: center;
+	font-weight: bolder;
+}
+.radios_informes{                       /*Centra radios button pedir informes*/    /*Cedillo agrego*/
+                   /*Centra radios button pedir informes*/    /*Cedillo agrego*/
+	margin-left: 80px;
+}
+
+#controlPuestos select {
+	height: 12em;
+}
+
+#controlPuestos img {
+	width: 2em;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select:none;
+}
+
+#controlPuestos img:hover {
+	background-color: rgb(0, 120, 215);
+	border-radius: 20px;
+	cursor: pointer;
+}
+
+#controlPuestos img:active {
+	width: 2.1em;
+}
+
+#footer {
+  background-color: #A60606;
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  color: white;
+  margin-top: 20px;
+  bottom:;
+  left:;
+}
+
+#footerf {
+  background-color: #A60606;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  color: white;
+}
