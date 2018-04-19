@@ -110,13 +110,13 @@ echo "<h2 class='mt-2 mb-3'>Bienvenido</h2>
 										<input required type='email' value='" . $arrayRes["Correo"] . "' name='inputCorreo' class='form-control' placeholder='Correo' aria-label='Correo' aria-describedby='addon-correo' disabled>
 									</div>
 								</div>
-								<div class='col-2'>
+								<div class='col-auto'>
 									<div class='form-group'>
 										<label for=''>Edad:</label>
 										<input type='number' min='15' max='60' value='" . $arrayRes["Edad"] . "' class='form-control' name='inputEdad' disabled>
 									</div>
 								</div>
-								<div class='col-2'>
+								<div class='col-auto'>
 									<div class='form-group'>
 										<label for=''>Sexo:</label>
 										<select required='' class='form-control' id='inputSexo' name='inputSexo' disabled>";
@@ -145,49 +145,6 @@ echo "<h2 class='mt-2 mb-3'>Bienvenido</h2>
 												<option value='M'>Masculino</option>
 												<option value='F'>Femenino</option>
 												<option value='O'>Otros</option>";
-												break;
-										}
-										echo "</select>
-									</div>
-								</div>
-								<div class='col-4'>
-									<div class='form-group'>
-										<label for=''>Orientación sexual</label>
-										<select required='' name='inputOrientacionSexual' id='inputOrientacionSexual' class='form-control' disabled>";
-										switch ($arrayRes["Orientacion_sexual"]) {
-											case 'Heterosexual':
-												echo "<option value=''>Seleccione una opcion</option>
-												<option value='Heterosexual' selected>Heterosexual</option>
-												<option value='Homosexual'>Homosexual</option>
-												<option value='Bisexual'>Bisexual</option>
-												<option value='Otros'>Otros</option>";
-												break;
-											case 'Homosexual':
-												echo "<option value=''>Seleccione una opcion</option>
-												<option value='Heterosexual'>Heterosexual</option>
-												<option value='Homosexual' selected>Homosexual</option>
-												<option value='Bisexual'>Bisexual</option>
-												<option value='Otros'>Otros</option>";
-												break;
-											case 'Bisexual':
-												echo "<option value=''>Seleccione una opcion</option>
-												<option value='Heterosexual'>Heterosexual</option>
-												<option value='Homosexual'>Homosexual</option>
-												<option value='Bisexual' selected>Bisexual</option>
-												<option value='Otros'>Otros</option>";
-												break;
-											case 'Otros':
-												echo "<option value=''>Seleccione una opcion</option>
-												<option value='Heterosexual'>Heterosexual</option>
-												<option value='Homosexual'>Homosexual</option>
-												<option value='Bisexual'>Bisexual</option>
-												<option value='Otros' selected>Otros</option>";
-											default:
-												echo "<option value='' selected>Seleccione una opcion</option>
-												<option value='Heterosexual'>Heterosexual</option>
-												<option value='Homosexual'>Homosexual</option>
-												<option value='Bisexual'>Bisexual</option>
-												<option value='Otros'>Otros</option>";
 												break;
 										}
 										echo "</select>

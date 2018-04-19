@@ -57,7 +57,6 @@ $Nombres=$_POST["inputNombre"];
 $CorreoE=$_POST["inputCorreo"];
 $Edad=$_POST["inputEdad"];
 $Sexo=$_POST["inputSexo"];
-$Orientacion=$_POST["inputOrientacionSexual"];
 $EstadoC=$_POST["inputEstadoCivil"];
 $EstadoEmpleado=$_POST["inputEstado"];
 $Municipio=$_POST["inputMunicipio"];
@@ -338,7 +337,7 @@ else{
   $NoL="NULL";
 }
 
-$insertarempleado="INSERT INTO empleado(idEmpleado,Nombre, ApellidoP,ApellidoM,Edad,Lugar_nacimiento,Sexo,Fecha_nacimiento,Estatura,Peso,Estado_civil,NSS,CURP,Afore,Cartilla_SM,Pasaporte,Licencia_Manejo,Sueldo_esperado,Observaciones,Fecha_registro,Estatus,RFC,Orientacion_sexual,Nivel,Fecha_contratacion,Documento_extranjero,Calle,No_ext,No_int,fkNacionalidad,fkDirecciones,Tallac,Tallap,Pastelf,Colorf,Gelatinaf,Comidaf,Puesto_solicitado,Tipo_licencia_manejo,Razon_empleo,Correo) values ('$idEmp','$Nombres','$ApeP','$ApeM',$Edad,'$LugarN','$Sexo','$FechaN',$Estatura,$Peso,'$EstadoC','$NSS','$CURP','$AFORE','$CM','$Pasaporte','$NoL',$sueldo,'$Observaciones','$fecha_actual','$Status','$RFC','$Orientacion','$Nivel',$Contratacion,'$DocuExtranjero','$Calle','$NoEXT','$NoInt','".$idnaci."','$fkdirecciones','$TallaCamisa',$TallaPantalon,'$PastelFavorito','$ColorFavorito','$GelatinaFavorito','$ComidaFavorita','$puesto','$TipoLM','$Razones','$CorreoE')";
+$insertarempleado="INSERT INTO empleado(idEmpleado,Nombre, ApellidoP,ApellidoM,Edad,Lugar_nacimiento,Sexo,Fecha_nacimiento,Estatura,Peso,Estado_civil,NSS,CURP,Afore,Cartilla_SM,Pasaporte,Licencia_Manejo,Sueldo_esperado,Observaciones,Fecha_registro,Estatus,RFC,Nivel,Fecha_contratacion,Documento_extranjero,Calle,No_ext,No_int,fkNacionalidad,fkDirecciones,Tallac,Tallap,Pastelf,Colorf,Gelatinaf,Comidaf,Puesto_solicitado,Tipo_licencia_manejo,Razon_empleo,Correo) values ('$idEmp','$Nombres','$ApeP','$ApeM',$Edad,'$LugarN','$Sexo','$FechaN',$Estatura,$Peso,'$EstadoC','$NSS','$CURP','$AFORE','$CM','$Pasaporte','$NoL',$sueldo,'$Observaciones','$fecha_actual','$Status','$RFC','$Nivel',$Contratacion,'$DocuExtranjero','$Calle','$NoEXT','$NoInt','".$idnaci."','$fkdirecciones','$TallaCamisa',$TallaPantalon,'$PastelFavorito','$ColorFavorito','$GelatinaFavorito','$ComidaFavorita','$puesto','$TipoLM','$Razones','$CorreoE')";
 $resultadoEmpleado=mysqli_query($conexion,$insertarempleado) or die(mysqli_error($conexion)) ;//funcion de php que realiza el query teniendo como parametros la conexion y el query.
 //condicional para saber si el insert a empleado funciono o no.
 if(!$resultadoEmpleado){
