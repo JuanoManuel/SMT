@@ -31,6 +31,7 @@ function cargar_contenido(){
     bloquearGuardarCambios();
     listar_empleados();
     cargar_bienvenida();
+    llenarSelectEstado(); 
     llenarVacantes();
     llenarPuestos();
     llenarPuestosSolicitud();
@@ -48,6 +49,18 @@ function cargar_bienvenida(){
     $("#v-pills-bienvenida").html(respuesta);
   });
 }
+
+/////////////////////////////
+function llenarSelectEstado() {
+  $.ajax({
+    url: 'php/Estados.php',
+    type: 'GET',
+    success: function(response) {
+      $("#inputEstado").html(response);
+    }
+  });
+}
+
 
 /**
 * @brief al cargar la pagina se agrega a la lista de vacantes los puestos que son solicitados 
@@ -89,7 +102,6 @@ function llenarPuestos() {
 * @brief funcion que llena el la etiqueta select con las vacantes solicitadas guardadas en la base de datos
 **/
 function llenarPuestosSolicitud() {
-  
   $.ajax({
     url: 'php/llenarPuestosSolicitud.php',
     type: 'GET',
