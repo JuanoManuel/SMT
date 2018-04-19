@@ -9,6 +9,7 @@ var numEscuelas = 0;
 
 //Declaracion de funciones
 $(document).ready(function(){
+	console.log("Entro al script del menu");
 	today = new Date();
 	var mes = 0;
 	var dia = 0;
